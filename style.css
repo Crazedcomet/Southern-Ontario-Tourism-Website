@@ -15,24 +15,36 @@ header {
     padding: 10px 0;
 }
 
-header .logo {
-    float: left;
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    display: inline-block;
 }
 
 header nav ul {
     list-style: none;
-    float: right;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 header nav ul li {
-    display: inline;
-    margin-left: 20px;
+    position: relative;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
 }
+
+header nav ul li a:hover {
+    background: #555;
+}
+
+    
 
 .container {
     width: 80%;
@@ -65,28 +77,6 @@ header nav ul li a {
 }
 
 .niagara1 {
-    padding: 50px 0;
-    text-align: center;
-}
-
-
-.niagaraattractions, .transportation {
-    width: 30%;
-    margin: 10px 0;
-}
-
-.niagaraattractions img, .transportation img {
-    width: 100%;
-    height: auto;
-}
-
-.niagaraattractions, .transportation {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.niagaraattraction {
     padding: 50px 0;
     text-align: center;
 }
@@ -221,3 +211,4 @@ footer {
 .footer-bottom p {
     margin: 0;
 }
+
