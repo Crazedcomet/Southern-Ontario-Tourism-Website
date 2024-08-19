@@ -52,6 +52,23 @@ header nav ul li a {
     margin-bottom: 20px;
 }
 
+.intro2 {
+    background: url('https://www.niagarafallslive.com/wp-content/uploads/niagara-falls-frozen-colors-1300x825-250k.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.intro2-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.niagara1 {
+    padding: 50px 0;
+    text-align: center;
+}
+
 
 .btn {
     display: inline-block;
