@@ -1,3 +1,14 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
 header {
     background: #333;
     color: #fff;
@@ -30,7 +41,7 @@ header nav ul li a {
 }
 
 .intro {
-    background: url('https://llandscapes-10674.kxcdn.com/wp-content/uploads/2017/04/bon-echo.jpg') no-repeat center center/cover;
+    background: url('https://www.jaykerrphotography.com/portfolio/images/Kerr_20121016_3563.jpg') no-repeat center center/cover;
     color: #fff;
     padding: 100px 0;
     text-align: center;
@@ -54,4 +65,20 @@ header nav ul li a {
 .about-us, .destinations, .tours, .testimonials, .special-offers {
     padding: 50px 0;
     text-align: center;
+}
+
+.destination-list, .tour-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination, .tour {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.destination img, .tour img {
+    width: 100%;
+    height: auto;
 }
