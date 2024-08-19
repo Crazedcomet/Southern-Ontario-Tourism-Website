@@ -70,6 +70,28 @@ header nav ul li a {
 }
 
 
+.niagaraattractions, .transportation {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.niagaraattractions img, .transportation img {
+    width: 100%;
+    height: auto;
+}
+
+.niagaraattractions, .transportation {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.niagaraattraction {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
 .btn {
     display: inline-block;
     background: #f4a261;
