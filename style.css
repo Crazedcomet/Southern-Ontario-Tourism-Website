@@ -76,9 +76,26 @@ header nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+.intro3 {
+    background: url('https://d1l57x9nwbbkz.cloudfront.net/files/s3fs-public/2023-07/toronto-skyline.jpg?VersionId=6Bl6DzOfw6pdxYcuuHLFoJAkerRbIZmc');
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.intro3-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
 .niagara1 {
     padding: 50px 0;
     text-align: center;
+}
+
+.toronto1 {
+    padding: 50px 0;
+    text-align: center; 
 }
 
 
